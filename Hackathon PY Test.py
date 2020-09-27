@@ -8,7 +8,7 @@ from fuzzywuzzy import process
 amountOfMovies = -10000
 
 #Adapated from https://towardsdatascience.com/how-to-build-from-scratch-a-content-based-movie-recommender-with-natural-language-processing-25ad400eb243
-
+#
 df = pd.read_csv('data.csv')
 
 df = df[['Title','Origin/Ethnicity','Genre','Director','Cast','Plot']]
